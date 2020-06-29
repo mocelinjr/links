@@ -59,7 +59,7 @@
 	}
 
 	.container.\31 25\25 {
-		width: 100%;
+		width: 80%;
 		max-width: 100em;
 		min-width: 80em;
 	}
@@ -78,136 +78,6 @@
 
 	.container {
 		width: 80em;
-	}
-
-	@media screen and (max-width: 1680px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 100em;
-			min-width: 80em;
-		}
-
-		.container.\37 5\25 {
-			width: 60em;
-		}
-
-		.container.\35 0\25 {
-			width: 40em;
-		}
-
-		.container.\32 5\25 {
-			width: 20em;
-		}
-
-		.container {
-			width: 80em;
-		}
-
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 81.25em;
-			min-width: 65em;
-		}
-
-		.container.\37 5\25 {
-			width: 48.75em;
-		}
-
-		.container.\35 0\25 {
-			width: 32.5em;
-		}
-
-		.container.\32 5\25 {
-			width: 16.25em;
-		}
-
-		.container {
-			width: 65em;
-		}
-
-	}
-
-	@media screen and (max-width: 980px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90%;
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90% !important;
-		}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90% !important;
-		}
-
 	}
 
 /* Grid */
@@ -2049,13 +1919,14 @@
 		}
 
 		.flex.flex-3 .col {
-			width: 31%;
+			width: 30%;
 		}
 
 		.flex.flex-4 .col {
 			width: 22%;
 		}
 
+		
 		.flex.flex-tabs {
 			-moz-flex-wrap: nowrap;
 			-webkit-flex-wrap: nowrap;
@@ -2064,34 +1935,14 @@
 		}
 
 			.flex.flex-tabs ul {
-				width: 20%;
+				width: 50%;
 			}
 
 			.flex.flex-tabs .tabs {
-				width: 77%;
-			}
-
-		@media screen and (max-width: 980px) {
-
-			.flex.flex-4 .col {
 				width: 48%;
 			}
 
-			.flex.flex-tabs ul {
-				width: 30%;
-			}
-
-			.flex.flex-tabs .tabs {
-				width: 67%;
-			}
-
-			.flex.flex-tabs .flex-3 .col {
-				width: 48%;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width:980px) {
 
 			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
 				width: 100%;
